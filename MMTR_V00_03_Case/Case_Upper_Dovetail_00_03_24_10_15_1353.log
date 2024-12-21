@@ -1,0 +1,37 @@
+Solid Edge Translation To 3MF
+Date: Tuesday,October 15,2024 01:54PM
+Output File: G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\Case_Upper_Dovetail_00_03_24_10_15_1353.3mf
+Author: Unknown
+Organization: Unknown
+Source System: SOLID EDGE
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
+Operating System: Windows 10 Professional
+Installed Memory: 23.84 GB
+
+Software Information:
+Parasolid Version: 36.0.142
+PSBodyshop Version: 36.0.108
+3MF Adapter Version: 13.0.193
+Solid Edge Version: 224.00.00.101 x64
+
+3MF Export Options
+Export Construction Solids:Off
+Export Displayed Parts:Off
+Enable Logging:On
+AllowInvalid3mfObjects:Off
+Export Flatten Assembly:On
+Export Units:Millimeters
+Export Tolerance Value:1.250000
+Export Tolerance Type:Custom
+Export Surface Plane Angle Value:0.523599
+Export Author:Unknown
+Export Description:Unknown
+Export Organization:Unknown
+Export Program Name:Unknown
+
+Translation progress:
+Phase 1 of 1 Translating Parasolid to foreign data types...
+Translation process completed
+Time required to translate:00 : 00 : 00

@@ -1,0 +1,27 @@
+-Pi pico form factor was not the best idea - make something surface mount and
+	with IO built in, or at least use SMD footprint/headers
+-Surface mount packages for modules - at least go headers or something, or make it castelations only
+All those digital busses to every module is a routing nightmare
+having IO expanders near the parts was useful.  Did mean giant busses, but not parallel though
+Plan big digital busses during placement
+Plan power/common planes during placement
+Two radio modules sucks; unify
+separate the 422 isolation as a module
+unused space under fuses - can I do anything with that?
+SMALL packages during design - soldering is fine, routing space is hard to come by
+
+KEY THE INPUT MODULE AND FUSES
+plan for switch wiring, pick for low-profile switches
+
+Ohm-input protection leaking to main!
+source follower - Vdson varied wildly with current: some kind of feedback?  Yeah did some spice in mid-nov
+--Solved by just changing the input resistors to pull gate further down
+
+Not enough switches on the display, at least need d pad
+input noise filtering (switchable?) maybe even hardware AC.  At least low-pass
+buffer the voltage afte the first input, then switches don't need high spec
+Probably get rid of PGA as it is, either use ADC or a simpler mux/buffer.  Maybe noise improvement?
+
+The radio burst power is weird, add switching and caps, probably
+oh wait no because parasitic on pins, probably vsys?  Something to let programming be normal...
+

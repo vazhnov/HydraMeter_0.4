@@ -1,0 +1,42 @@
+STEP translation to Solid Edge
+Date: Monday,October 14,2024 09:39PM
+Source File: G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\l77sde09s-4.stp
+Author: cq
+Organization: Unknown
+Source System: PRO/ENGINEER BY PARAMETRIC TECHNOLOGY CORPORATION, 2009280
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 23.84 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
+Translation process completed
+Total time required to translate and post process:00 : 00 : 01

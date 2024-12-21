@@ -1,0 +1,20 @@
+﻿//// This file contains orignal file paths Vs new file paths which would be used to reconcile the files when they are back to source
+//// The Pack and Go process is completed successfully. 11 documents were copied in this process.
+//// Pack and Go Time: 2024/10/14 20:29:43
+//// TopLevelAssembly: G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\CaseAssy_V24_10_09.asm:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\CaseAssy_V24_10_09.asm
+//// Include Drafts:False
+
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\18650_outline.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\18650_outline.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\Case_Bottom_00_02_24_10_09.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\Case_Bottom_00_02_24_10_09.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\Case_Top00_02_24_10_09.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\Case_Top00_02_24_10_09.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\Case_Upper_Dovetail_24_10_09.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\Case_Upper_Dovetail_24_10_09.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\CaseAssy_V24_10_09.asm:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\CaseAssy_V24_10_09.asm
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\CONNECTOR DB_9_MALE.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\CONNECTOR DB_9_MALE.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\CW_Switch.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\CW_Switch.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\Fuse_Clip.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\Fuse_Clip.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\Fuse_Holder_00_02_24_10_09.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\Fuse_Holder_00_02_24_10_09.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\Input_Jacks.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\Input_Jacks.par
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case\MMTR_AFE_00_03_23_09_29_20.par:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case\MMTR_AFE_00_03_23_09_29_20.par
+
+//// UniqueFolders
+G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_02_Case:?G:\Other computers\My Laptop\Hobby\mmtr\Mech\MMTR_V00_03_Case

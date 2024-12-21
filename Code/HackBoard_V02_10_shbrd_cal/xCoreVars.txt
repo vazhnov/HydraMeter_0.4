@@ -1,0 +1,18 @@
+variables that cross cores
+
+global::currentCurrent
+global::currentOhmCur
+global::ohmRangeStr
+
+global::doSendOhmRange
+global::currentOhmCur
+global::currentResistance
+global::doSendOhmRange
+global::currentVoltage
+global::lastVAdcRdg
+global::doSendVoltageRange
+global::voltRangeStr
+
+extern volatile uint8_t SRPins[3];
+extern volatile uint8_t SRDigIn[2];
+extern volatile bool doWriteSRPins;

@@ -5,12 +5,32 @@ This project uses the CERN Open Hardware Licence Version 2 - Strongly Reciprocal
 Any derived works must fall under the same license and must be open source themselves
 
 
+I don't have detailed assembly documents yet, and this isn't really well made for easy assembly in any case, it's a proof of concept at the moment. 
+There are some more details here: https://hackaday.io/project/176607-hydrameter but it's not much.  Mainly a few entries down there's a tour
+of how the analog stuff works: https://hackaday.io/project/176607-hydrameter/log/223270-schematic-and-operation
 
+MMTR_AFE_00_04_TORELEASE contains all schematics and board layouts
+MMTR_V00_03_Case contains all the CAD, source type is solidedge (they have a free community edition).
+Code -> HackBoard_V02_10_shbrd_cal contains the code for the analog frontend
+Code -> Display_VP_10_WirelessV2_SC contains code for the display section
+
+
+
+I would recommend 24 to 28 awg stranded wire for connecting to switches, except the mA/uA switch, for which I'd use 20awg.
+The switches should pull inputs to the 74165s to ground, for numbering you'll have to check the code (or adjust it), when assembled I just
+wired up all of them then recorded which switch went where, I don't have a list or diagram.  On the board these are labeled A-H, one set
+is near the middle of the board, the other next to the module connector. 
+hardwired connections are: the two ohms jumpers (J7 and J8) are wired to the second pole of the lower-right switch (right from the front),
+and the mA/uA switch goes to J5 and J6.  
+There's a hardwired connection from J30 to J34, which should be made with at least 18awg wire, as it carries the full current for the 10A range.
 
 
 
 Note that this version of the PCB has some tweaks from the last manufactured version,
-these have not been verified to work.  The as-made PCB is under version 0.3, 
+these have not been verified to work. 
+
+
+The as-made PCB is under version 0.3, 
 however, this version requires significant manual rework including:
 pullup resistors for all switches to D3V3
 cutting jumpers to the Module outputs (J96-99, to configure them as inputs), and wiring switches to them
